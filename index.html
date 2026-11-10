@@ -1,59 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sw">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MYONLINEINCOME - Pesa Online</title>
+<title>MYONLINEINCOME - Pata Pesa Online</title>
 <style>
-  *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
-  body{background:#0a0a0a;color:white}
-  header{background:#111;padding:18px 20px;display:flex;justify-content:space-between;align-items:center}
-  header h1{color:#00ff88;font-size:22px}
-  header a{color:white;text-decoration:none;margin-left:15px;font-size:14px}
-  .hero{text-align:center;padding:70px 20px;background:linear-gradient(135deg,#00ff88,#00aaff);color:black}
-  .hero h2{font-size:38px;margin-bottom:10px}
-  .hero p{font-size:17px;margin-bottom:22px}
-  .btn{background:black;color:#00ff88;padding:14px 28px;border:none;border-radius:30px;font-weight:bold;font-size:16px;cursor:pointer}
-  .cards{display:flex;gap:15px;justify-content:center;flex-wrap:wrap;padding:25px}
-  .card{background:#1a1a1a;padding:22px;border-radius:15px;width:270px;text-align:center}
-  .card h3{color:#00ff88;margin-bottom:8px}
-  .card p{color:#ccc;font-size:14px;line-height:1.5}
-  .cta{text-align:center;padding:30px 20px}
-  .cta h3{font-size:24px;margin-bottom:12px}
-  footer{text-align:center;padding:20px;color:#777;font-size:13px}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0a0a0a;color:white}
+header{background:#111;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0}
+header h1{color:#00ff88;font-size:20px}
+header a{color:white;text-decoration:none;margin-left:15px;font-size:14px}
+.hero{text-align:center;padding:70px 20px;background:linear-gradient(135deg,#00ff88,#00c2ff)}
+.hero h2{font-size:38px;margin-bottom:10px;color:#000}
+.hero p{font-size:17px;margin-bottom:22px;color:#111}
+.btn{background:black;color:#00ff88;padding:14px 30px;border-radius:30px;display:inline-block;text-decoration:none;font-weight:bold}
+.section{padding:40px 20px;max-width:900px;margin:auto}
+.section h2{text-align:center;color:#00ff88;margin-bottom:20px;font-size:26px}
+.cards{display:flex;flex-direction:column;gap:15px}
+.card{background:#1a1a1a;padding:22px;border-radius:15px;border:1px solid #333}
+.card h3{color:#00ff88;margin-bottom:8px}
+.card p{color:#ccc;font-size:14px;line-height:1.6}
+.card b{color:white}
+.steps{background:#111;padding:25px;border-radius:15px}
+.steps p{margin-bottom:12px;line-height:1.6}
+.faq{background:#1a1a1a;padding:20px;border-radius:12px;margin-bottom:12px}
+.faq b{color:#00ff88}
+.cta{text-align:center;padding:40px 20px;background:#00ff88;color:black;border-radius:20px;margin:20px}
+.cta h3{font-size:24px;margin-bottom:12px}
+.cta a{background:black;color:#00ff88;padding:14px 28px;border-radius:30px;display:inline-block;text-decoration:none;font-weight:bold;margin-top:10px}
+footer{text-align:center;padding:20px;color:#888;font-size:13px}
 </style>
 </head>
 <body>
 
 <header>
-  <h1>MYONLINEINCOME</h1>
-  <div>
-    <a href="#">Home</a>
-    <a href="#">Ways To Earn</a>
-    <a href="#">Contact</a>
-  </div>
+<h1>MYONLINEINCOME</h1>
+<div><a href="#">Home</a><a href="#ways">Ways To Earn</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
 </header>
 
 <div class="hero">
-  <h2>Pata Pesa Online 💰</h2>
-  <p>Njia rahisi na za ukweli za kupata pesa ukiwa nyumbani na simu yako.</p>
-  <button class="btn">Anza Sasa</button>
+<h2>Pata Pesa Online 💰</h2>
+<p>Njia rahisi na za ukweli za kupata pesa ukiwa nyumbani na simu yako. Hakuna pesa ya kuwekeza kuanza.</p>
+<a class="btn" href="#ways">Anza Sasa ↓</a>
 </div>
 
+<div class="section" id="ways">
+<h2>Ways To Earn - Maelezo Kamili</h2>
 <div class="cards">
-  <div class="card"><h3>💻 Freelancing</h3><p>Jifunze skill kama design, writing, video editing na uuze kwa wateja online.</p></div>
-  <div class="card"><h3>📱 Content Creation</h3><p>TikTok, YouTube, Instagram - tengeneza content na brands zitakulipa.</p></div>
-  <div class="card"><h3>🛒 Affiliate Marketing</h3><p>Promote bidhaa za watu wengine, ukinunuliwa unapata commission.</p></div>
-  <div class="card"><h3>🎓 Online Courses</h3><p>Uza kile unachojua. Watu wanalipa kujifunza.</p></div>
+
+<div class="card">
+<h3>💻 1. Freelancing</h3>
+<p><b>Ni nini?</b> Jifunze skill kama design, writing, video editing na uuize kwa wateja online.</p>
+<p><b>Unahitaji:</b> Simu / Laptop + Internet + Skill moja</p>
+<p><b>Unapata:</b> Ksh 500 - Ksh 5,000 kwa kazi moja</p>
+<p><b>Jinsi ya Kuanza:</b> 1. Chagua skill moja (Canva design ni rahisi) 2. Jifunze YouTube siku 7 3. Fungua account Fiverr / Upwork 4. Posta kazi zako</p>
 </div>
 
-<div class="cta">
-  <h3>Uko Tayari Kuanza?</h3>
-  <p style="color:#ccc;margin-bottom:15px">Usisubiri kesho. Anza leo na kitu kimoja.</p>
-  <button class="btn">Join Free</button>
-</div>
-
-<footer>© 2026 MYONLINEINCOME. All rights reserved.</footer>
-
-</body>
-</html>
+<div class="card">
+<h3>📱 2. Content Creation</h3>
+<p><b>Ni nini?</b> TikTok, YouTube, Instagram - tengeneza content na brands zitakulipa.</p>
+<p><b>Unahitaji:</b> Simu + Mtandao + Kuwa consistent</p>
+<p><b>Unapata:</b> Ksh 1,000 - Ksh 50,000 kwa mwe
